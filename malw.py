@@ -11,7 +11,7 @@ def execute_files(folder_path):
                 file_paths.add(file_path)
     
     if len(file_paths) == 0:
-        print('No files found in folder "Malware". Add executables into the folder named "Malware" to execute.')
+        print('no files found in folder "Malware". add executables into the folder named "Malware" to execute.')
     elif len(file_paths) == 1:
         print(f"{len(file_paths)} file found")
     else:
